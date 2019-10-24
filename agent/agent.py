@@ -11,7 +11,12 @@ import sys
 import traceback
 import threading
 import uuid
-import StringIO
+
+try:
+    from StringIO import StringIO ## for Python 2
+except ImportError:
+    from io import StringIO
+
 import zipfile
 import tempfile
 import socket
