@@ -2,6 +2,7 @@
 Backdoor+Botnet
 
 [![Build Status](https://travis-ci.com/kaiiyer/backnet.svg?branch=master)](https://travis-ci.com/kaiiyer/backnet)
+[![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
 ```
  ____             _    _   _      _   
 | __ )  __ _  ___| | _| \ | | ___| |_ 
