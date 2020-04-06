@@ -1,15 +1,3 @@
-# BackNet
-Backdoor+Botnet
-
-
-![Python](https://alibahaari.github.io/Badge/Python.png)  ![HTML](https://alibahaari.github.io/Badge/HTML.png)   ![JS](https://alibahaari.github.io/Badge/CSS.png)    ![CSS](https://alibahaari.github.io/Badge/JavaScript.png)
-
-![Git Actions](https://github.com/kaiiyer/backnet/workflows/Git%20Actions/badge.svg)
-[![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
-<a href="https://github.com/kaiiyer/backnet/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/kaiiyer/backnet"></a>
-<a href="https://github.com/kaiiyer/backnet/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/kaiiyer/backnet"></a>
-<a href="https://github.com/kaiiyer/backnet/graphs/contributors" alt="Contributors">
-<img src="https://img.shields.io/github/contributors/kaiiyer/backnet" /></a>
 ```
  ____             _    _   _      _   
 | __ )  __ _  ___| | _| \ | | ___| |_ 
@@ -19,11 +7,20 @@ Backdoor+Botnet
 
 ```
 
-BackNet is a Python Remote Access Tool.
+Backdoor+Botnet
 
-BackNet is made of two main programs:
+![Python](https://alibahaari.github.io/Badge/Python.png)  ![HTML](https://alibahaari.github.io/Badge/HTML.png)   ![JS](https://alibahaari.github.io/Badge/CSS.png)    ![CSS](https://alibahaari.github.io/Badge/JavaScript.png)
 
-- A Command aad Control server, which is a Web interface to administer the agents
+![Git Actions](https://github.com/kaiiyer/backnet/workflows/Git%20Actions/badge.svg)
+[![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
+<a href="https://github.com/kaiiyer/backnet/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/kaiiyer/backnet"></a>
+<a href="https://github.com/kaiiyer/backnet/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/kaiiyer/backnet"></a>
+<a href="https://github.com/kaiiyer/backnet/graphs/contributors" alt="Contributors">
+<img src="https://img.shields.io/github/contributors/kaiiyer/backnet" /></a>
+
+BackNet is a Python Remote Access Tool. It is made of two main programs:
+
+- A Command and Control server, which is a Web interface to administer the agents
 - An agent program, which is run on the compromised host, and ensures communication with the CNC
 
 The Web interface can be run on any server running Python. The agent can be compiled to native executables using **pyinstaller**.
